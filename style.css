@@ -1,0 +1,118 @@
+/* Reset 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Section 1: Header */
+#header {
+    height: 120px;
+    background-color: #FFDD87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#header ul li {
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+#header .logo {
+    margin: 0 33px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#header ul li a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Section 2: Main Picture */
+#main_picture img {
+    width: 100%;
+    height: 464px;
+    object-fit: cover;
+}
+
+/* Section 3: Icon Title */
+#icon_title {
+    padding: 30px 0;
+    background-color: #FFDD87;
+}
+
+#icon_title .small-text {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#icon_title .large-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Section 4: Icon Box */
+#icon_box {
+    width: 1240px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD5D5;
+    padding: 20px 0;
+}
+
+#icon_box .box {
+    width: 250px;
+    font-size: 14px;
+    margin: 0 30px;
+}
+
+/* Section 5: Chefs */
+#chefs {
+    height: 304px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#chefs .content {
+    width: 500px;
+    text-align: left;
+}
+
+#chefs .content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#chefs .content p {
+    font-size: 14px;
+}
+
+#chefs .image img {
+    height: 200px;
+    object-fit: contain;
+}
